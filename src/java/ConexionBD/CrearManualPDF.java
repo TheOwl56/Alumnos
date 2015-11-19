@@ -156,6 +156,18 @@ public class CrearManualPDF {
             manual.add(vacio);
             manual.add(vacio);
 
+              //We add a new page
+            manual.newPage();
+            
+             String url_logo_ = "/Imagenes/header_ittoluca_pdf.png";
+            String absolute_url_logo_ = d.getRealPath(url_logo_);
+            Image itt_logo_ = Image.getInstance(absolute_url_logo_);
+            Image Logo_itt_ = Image.getInstance(itt_logo_);
+            //Logo_itt_.setAbsolutePosition(30f, 770f);
+            Logo_itt.setAbsolutePosition(30f, 770f);
+            //manual.add(Logo_itt_);
+            manual.add(Logo_itt);
+            
             Paragraph d8 = new Paragraph(
                     "Importante: \n\n"
                     + "Para realizar cualquier cambio en los datos proporcionados deberá solicitarlo en ventanilla al"
@@ -164,15 +176,7 @@ public class CrearManualPDF {
                     + "para finalizar su registro de lo contrario su solicitud será rechazada.", FontFactory.getFont("arial black", 11, Font.BOLD));
             d8.setAlignment(Element.ALIGN_JUSTIFIED);
             manual.add(d8);
-
-            String url_logo_ = "/Imagenes/header_ittoluca_pdf.png";
-            String absolute_url_logo_ = d.getRealPath(url_logo_);
-            Image itt_logo_ = Image.getInstance(absolute_url_logo_);
-            Image Logo_itt_ = Image.getInstance(itt_logo_);
-            //Logo_itt_.setAbsolutePosition(30f, 770f);
-            Logo_itt.setAbsolutePosition(30f, 770f);
-            //manual.add(Logo_itt_);
-            manual.add(Logo_itt);
+           
 
             String manual_imagen = "/Imagenes/manual_imagen.png";
             //String manual_imagen = "/Imagenes/manual_imagen.PNG";
