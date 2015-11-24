@@ -6,6 +6,7 @@
 package servlets;
 
 import ConexionBD.CrearManualPDF;
+import ConexionBD.CreateMan2;
 import java.io.IOException;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -31,10 +32,13 @@ public class ManualGenerar extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 //        response.setContentType("text/html;charset=UTF-8");
-        ServletContext contexto = getServletContext();
-        response.setContentType("application/pdf");
-        CrearManualPDF manual = new CrearManualPDF();
-        manual.ElaboraManual(response, contexto);
+        //ServletContext contexto = getServletContext();
+        //response.setContentType("application/pdf");
+
+        //CrearManualPDF manual = new CrearManualPDF();
+        //manual.ElaboraManual(response, contexto);
+        CreateMan2 man = new CreateMan2();
+        man.create(response, getServletContext());
 
     }
 

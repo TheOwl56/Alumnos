@@ -5,7 +5,10 @@
         <group>
             <file>file:/D:/Documents/Git/Alumnos/src/java/ConexionBD/Procedimientos.java</file>
             <file>file:/D:/Documents/Git/Alumnos/web/Index.jsp</file>
+            <file>file:/D:/Documents/Git/Alumnos/src/java/servlets/PrefichaGenerar.java</file>
+            <file>file:/D:/Documents/Git/Alumnos/src/java/servlets/ManualGenerar.java</file>
             <file>file:/D:/Documents/Git/Alumnos/src/java/ConexionBD/CreaPrefichaPDF.java</file>
+            <file>file:/D:/Documents/Git/Alumnos/src/java/ConexionBD/CreateMan2.java</file>
             <file>file:/D:/Documents/Git/Alumnos/src/java/ConexionBD/CrearManualPDF.java</file>
         </group>
     </open-files>

@@ -157,7 +157,7 @@ public class CrearManualPDF {
             manual.add(vacio);
 
               //We add a new page
-            manual.newPage();
+            //manual.newPage();
             
              String url_logo_ = "/Imagenes/header_ittoluca_pdf.png";
             String absolute_url_logo_ = d.getRealPath(url_logo_);

@@ -40,7 +40,7 @@
                         <br>
                         <br>
                         <label>Para más información sobre la convocatoria consulte <a href="http://www.ittoluca.edu.mx/" target="_blank">aquí.</a></label><br>
-                        <label> Para más información sobre el proceso de registro consulte <a href="http://192.168.40.105:8080/MODULO_ASPIRANTE/manualgenerar" target="_blank"> aquí.</a></label>
+                        <label> Para más información sobre el proceso de registro consulte <a href="http://192.168.40.112:8080/MODULO_ASPIRANTE/manualgenerar" target="_blank"> aquí.</a></label>
                     </h4>
                 </label>
                 <div>
